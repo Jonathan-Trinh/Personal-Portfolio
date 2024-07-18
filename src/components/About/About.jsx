@@ -17,27 +17,27 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
+                            <h3>TODO</h3>
                             <p>
-                                QED
+                                TODO
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/serverIcon.png")} alt="Server Icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
+                            <h3>TODO</h3>
                             <p>
-                                QED
+                                TODO
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/uiIcon.png")} alt="Ui Icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>UI Developer</h3>
+                            <h3>TODO</h3>
                             <p>
-                                QED
+                                TODO
                             </p>
                         </div>
                     </li>
