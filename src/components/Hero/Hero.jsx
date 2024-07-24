@@ -9,12 +9,9 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Jonathan</h1>
                 <p className={styles.description}>
-                    I'm a Student at the University of Washington pursuing a bachelors.
-                    If my work interests you, feel free to reach out and connect!
+                I'm a student majoring in computer science at the University of Washington.
+                My communication lines are always open, so feel free to connect with me using the links in the contact section below!
                 </p>
-                <a href="mailto:jonathantrinh04@gmail.com" className={styles.contactBtn}>
-                    Contact Me
-                </a>
             </div>
             <img
                 src={getImageUrl("hero/heroImage.png")}
