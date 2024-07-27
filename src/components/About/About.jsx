@@ -9,35 +9,27 @@ export const About = () => {
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
                 <img
-                    src={getImageUrl("about/aboutImage.png")}
-                    alt="Me sitting with a laptop"
+                    src={getImageUrl("about/GatesCenter.png")}
+                    alt="Bill and Melinda Gates Center for Computer Science"
                     className={styles.aboutImage}
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
+                        <img src={getImageUrl("about/uiIcon.png")} alt="Ui Icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>TODO</h3>
                             <p>
-                                TODO
-                            </p>
-                        </div>
-                    </li>
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="Server Icon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>TODO</h3>
-                            <p>
-                                TODO
+                                I'm a quick learner that's always eager to learn more. 
+                                The opportunity to use my passion and knowledge to improve the lives of others, even if only a little, drives me to pursue CS at UW.
+                                I've put the desire to help people into action by contributing to projects and teaching others. 
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/uiIcon.png")} alt="Ui Icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>TODO</h3>
+                            <h3>What's next!</h3>
                             <p>
-                                TODO
+                                Currently, I'm looking for a SWE internship for the summer of 2025
                             </p>
                         </div>
                     </li>
