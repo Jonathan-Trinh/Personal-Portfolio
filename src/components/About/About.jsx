@@ -15,7 +15,7 @@ export const About = () => {
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="Ui Icon" />
+                        <img src={getImageUrl("about/uiIcon.png")} alt="Icon" />
                         <div className={styles.aboutItemText}>
                             <p>
                                 I'm a quick learner that's always eager to learn more. 
@@ -25,7 +25,7 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="Ui Icon" />
+                        <img src={getImageUrl("about/uiIcon.png")} alt="Icon" />
                         <div className={styles.aboutItemText}>
                             <h3>What's next!</h3>
                             <p>
