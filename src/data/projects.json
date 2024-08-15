@@ -1,39 +1,34 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "uMSG",
+        "imageSrc": "projects/uMSG.png",
+        "description": "A small messaging app to help connect UW students. This was implemented with various data structures and sorting algorithms to learn how and when to use them. ",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "Java",
+            "CSS"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Jonathan-Trinh/uMSG"
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "StudySpark",
+        "imageSrc": "projects/studySpark.png",
+        "description": "StudySpark is a flashcard based studying application that helped me learn about frontend-tools and client-server interactions.",
         "skills": [
             "React",
             "Express",
-            "Node",
-            "Sass"
+            "Typescript",
+            "Node"
+
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Jonathan-Trinh/StudySpark"
     },
     {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "Dynamic Memory Allocator",
+        "imageSrc": "projects/dynamicMemory.png",
+        "description": "Reimplemented C's dynamic memory allocator methods to get a better understanding of how memory allocation works. It also helped me learn about low level programming and C.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "C"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Jonathan-Trinh/CSE-351/tree/main/Lab5"
     }
 ]
