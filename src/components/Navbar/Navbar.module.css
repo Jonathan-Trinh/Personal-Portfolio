@@ -44,6 +44,14 @@
     align-items: flex-start;
   }
 
+  .title {
+    margin-top: 3px;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+  }
+
   .menu {
     position: absolute;
     right: 0;

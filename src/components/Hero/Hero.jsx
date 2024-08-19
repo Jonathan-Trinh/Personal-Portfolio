@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-// Use the original hero image for size reference.
+
 export const Hero = () => {
     return (
         <section className={styles.container}>
