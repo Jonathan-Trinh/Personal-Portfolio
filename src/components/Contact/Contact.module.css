@@ -58,6 +58,12 @@
         align-items: center;
     }
 
+    .text p{
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
     .links {
         align-items: center;
     }
