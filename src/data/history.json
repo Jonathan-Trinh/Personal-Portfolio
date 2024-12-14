@@ -10,5 +10,17 @@
       "Hold weekly office hours to help tens of students with questions about course material and debugging."
     ],
     "imageSrc": "history/allenSchool.png"
+  },
+  {
+    "role": "Research Assistant",
+    "organization": "Remote Hub Lab",
+    "startDate": "Dec, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Working on projects to better the experience of working in labs remotely.",
+      "Using simulations and real hardware to help people see real world application of their work.",
+      "Removing barriers of accessibility allowing people to study and complete lab work from just a web browser."
+    ],
+    "imageSrc": "history/remoteHubLab.jpeg"
   }
 ]
