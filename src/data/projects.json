@@ -23,12 +23,14 @@
         "source": "https://github.com/Jonathan-Trinh/StudySpark"
     },
     {
-        "title": "Dynamic Memory Allocator",
-        "imageSrc": "projects/dynamicMemory.png",
-        "description": "Reimplemented C's dynamic memory allocator methods to get a better understanding of how memory allocation works. It also helped me learn about low level programming and C.",
+        "title": "Flight_App",
+        "imageSrc": "projects/flightApp.png",
+        "description": "Flight management app powered by SQL Server to maintain a persistent database and allows concurrent use of many features.",
         "skills": [
-            "C"
+            "Java",
+            "SQL",
+            "Maven"
         ],
-        "source": "https://github.com/Jonathan-Trinh/CSE-351/tree/main/Lab5"
+        "source": "https://github.com/Jonathan-Trinh/Flight_App"
     }
 ]
