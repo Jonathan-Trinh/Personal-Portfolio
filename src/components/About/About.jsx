@@ -24,7 +24,7 @@ export const About = () => {
                             </p>
                         </div>
                     </li>
-                    <li className={styles.aboutItem}>
+                    {/* <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/uiIcon.png")} alt="Icon" />
                         <div className={styles.aboutItemText}>
                             <h3>What's next!</h3>
@@ -32,7 +32,7 @@ export const About = () => {
                                 Currently, I'm looking for a SWE internship for the summer of 2025
                             </p>
                         </div>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </section>
