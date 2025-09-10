@@ -8,14 +8,15 @@ import { Projects } from './components/Projects/Projects';
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    // <div className={styles.App}>
+    //   <Navbar />
+    //   <Hero />
+    //   <About />
+    //   <Experience />
+    //   <Projects />
+    //   <Contact />
+    // </div>
+    <div className={styles.App}> Down for maintenance: refactoring to TS, I Hate JS</div>
   );
 }
 
