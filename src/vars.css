@@ -1,12 +1,17 @@
 :root {
   /* Colors */
-  --color-highlight: #3b82f6;
-  --color-text: #fff;
+  --color-text: #ffffff;
   --color-primary: #576cbc;
   --color-secondary: #19376d;
   --color-dark: #0b2447;
-  --color-bg: #fff;
-
+  --color-bg: #ffffff;
+  --color-navbar: rgba(248, 250, 252, 0.9);
+  --color-border: rgba(209, 213, 219, 0.8);
+  --color-btn-text: #64748b;
+  --color-hover-bg: #e2e8f0;
+  --color-hover-text: #1e293b;
+  --color-active-bg: #dbeafe;
+  --color-active-text: #3b82f6;
   /* Fonts */
   --font-roboto: "Roboto";
 }
