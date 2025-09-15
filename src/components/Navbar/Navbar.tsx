@@ -1,34 +1,42 @@
 import { Component, type JSX } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import type { sections } from "../../App";
 
-interface NavbarState {
+type NavbarProps = {
+  activeSection: sections;
+  onSectionChange: (section: sections) => void;
+}
+
+type NavbarState = {
   menuOpen: boolean;
-  activeSection: string;
 }
 
 /** Navbar Component for website */
-export class Navbar extends Component<{}, NavbarState> {
-  constructor(props: {}) {
+export class Navbar extends Component<NavbarProps, NavbarState> {
+  constructor(props: NavbarProps) {
     super(props);
 
     this.state = {
-      menuOpen: false,
-      activeSection: 'About'
+      menuOpen: false
     };
   }
 
-  handleMenuClick = (itemName: string) => {
-    this.setState({
-      activeSection: itemName,
-      menuOpen: false
-    });
+  handleMenuClick = (section: sections): void => {
+    this.props.onSectionChange(section);
+    this.closeMenu();
+
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
   };
 
   toggleMenu = () => {
-    this.setState(prevState => ({
-      menuOpen: !prevState.menuOpen
-    }));
+    this.setState({ menuOpen: !this.state.menuOpen });
   };
 
   closeMenu = () => {
@@ -36,56 +44,81 @@ export class Navbar extends Component<{}, NavbarState> {
   };
 
   render = (): JSX.Element => {
-    const { menuOpen, activeSection } = this.state;
+    const { menuOpen } = this.state;
+    const { activeSection } = this.props;
 
     return (
       <nav className={styles.navbar}>
-        <a className={styles.title} href="/">
-          Jonathan Trinh | UW CSE
+        <a
+          className={styles.title}
+          href="#hero"
+          onClick={(e) => {
+            e.preventDefault();
+            this.handleMenuClick('hero');
+          }}>
+          Jonathan Trinh
         </a>
 
         <img
           className={styles.menuBtn}
           src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")}
           alt="menu-button"
-          onClick={this.toggleMenu}
-        />
+          onClick={this.toggleMenu} />
 
         <div className={`${styles.menu} ${menuOpen ? styles.menuOpen : ''}`}>
-          <ul className={styles.menuItems} onClick={this.closeMenu}>
+          <ul className={styles.menuItems}>
+            <li>
+              <a
+                href="#hero"
+                className={activeSection === 'hero' ? styles.active : ''}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.handleMenuClick('hero');
+                }}>
+                Home
+              </a>
+            </li>
             <li>
               <a
                 href="#about"
-                className={activeSection === 'About' ? styles.active : ''}
-                onClick={() => this.handleMenuClick('About')}
-              >
+                className={activeSection === 'about' ? styles.active : ''}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.handleMenuClick('about');
+                }}>
                 About
               </a>
             </li>
             <li>
               <a
                 href="#experience"
-                className={activeSection === 'Experience' ? styles.active : ''}
-                onClick={() => this.handleMenuClick('Experience')}
-              >
+                className={activeSection === 'experience' ? styles.active : ''}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.handleMenuClick('experience');
+                }}>
                 Experience
               </a>
             </li>
             <li>
               <a
                 href="#projects"
-                className={activeSection === 'Projects' ? styles.active : ''}
-                onClick={() => this.handleMenuClick('Projects')}
-              >
+                className={activeSection === 'projects' ? styles.active : ''}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.handleMenuClick('projects');
+                }}>
                 Projects
               </a>
             </li>
             <li>
               <a
                 href="#contact"
-                className={activeSection === 'Contact' ? styles.active : ''}
-                onClick={() => this.handleMenuClick('Contact')}
-              >
+                className={activeSection === 'contact' ? styles.active : ''}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.handleMenuClick('contact');
+                }}>
                 Contact
               </a>
             </li>

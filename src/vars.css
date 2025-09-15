@@ -1,17 +1,27 @@
 :root {
   /* Colors */
-  --color-text: #ffffff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #ffffff;
-  --color-navbar: rgba(248, 250, 252, 0.9);
-  --color-border: rgba(209, 213, 219, 0.8);
-  --color-btn-text: #64748b;
+  --color-text: #64748b;
+  --color-text-alt: white;
+  --color-subtitle: rgb(75, 85, 99);
+  --color-active-section: rgb(248, 250, 252);
+  --color-border: rgba(255, 255, 255, 0.2);
+  --color-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Navbar */
+  --color-navbar: rgba(255, 255, 255, 0.1);
   --color-hover-bg: #e2e8f0;
   --color-hover-text: #1e293b;
   --color-active-bg: #dbeafe;
   --color-active-text: #3b82f6;
+  --color-navbar-menu-bg: #ffffff;
+
+  /* Hero */
+  --color-name-gradient: linear-gradient(135deg, rgb(64, 120, 192), rgb(52, 66, 86));
+  --color-proj-btn: linear-gradient(135deg, rgb(72, 130, 200), rgb(88, 102, 156));
+  --color-proj-btn-shadow: rgba(81, 105, 210, 0.4);
+  --color-proj-btn-hover: rgba(81, 105, 210, 0.8);
+  --color-cont-btn: rgb(64, 120, 192);
+
   /* Fonts */
   --font-roboto: "Roboto";
 }

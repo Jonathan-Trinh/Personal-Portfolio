@@ -10,12 +10,12 @@
   justify-content: space-between;
   padding: 15px 5%;
   z-index: 1000;
-  background-color: var(--color-navbar);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 2px solid var(--color-border);
-  margin: 0;
   font-family: var(--font-roboto);
+  background: var(--color-navbar);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 8px 32px var(--color-shadow);
+  animation: slideDown 0.6s ease-out;
 }
 
 .title {
@@ -28,6 +28,11 @@
 
 .menuBtn {
   display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
 }
 
 .menu {
@@ -42,17 +47,13 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center;
-}
-
-.menuItems li {
-  margin: 0;
+  align-items: center
 }
 
 .menuItems a {
   font-size: 16px;
   font-weight: 500;
-  color: var(--color-btn-text);
+  color: var(--color-text);
   text-decoration: none;
   padding: 10px 16px;
   border-radius: 20px;
@@ -71,15 +72,7 @@
 }
 
 @media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 5%;
-    justify-content: space-between;
-  }
-
   .title {
-    font-size: 20px;
     margin-left: 0;
   }
 
@@ -88,12 +81,10 @@
     top: 100%;
     right: 5%;
     flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    background-color: var(--color-bg);
+    background-color: var(--color-navbar-menu-bg);
     border: 1px solid var(--color-hover-bg);
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px var(--color-shadow);
     padding: 8px;
     min-width: 200px;
     display: none;
@@ -101,30 +92,31 @@
 
   .menu.menuOpen {
     display: flex;
-    z-index: 1001;
   }
 
   .menuBtn {
     display: block;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 8px;
-    color: var(--color-secondary);
   }
 
   .menuItems {
     flex-direction: column;
     gap: 4px;
-    width: 100%;
   }
 
   .menuItems a {
     padding: 12px 16px;
     border-radius: 8px;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
