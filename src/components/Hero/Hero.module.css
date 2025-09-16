@@ -25,8 +25,7 @@
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.1;
-  margin: 0;
-  background: var(--color-name-gradient);
+  background: var(--color-title-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
