@@ -2,6 +2,7 @@
   /* Colors */
   --color-text: #64748b;
   --color-text-alt: white;
+  --color-bg: #ffffff;
   --color-subtitle: rgb(75, 85, 99);
   --color-active-section: rgb(248, 250, 252);
   --color-border: rgba(255, 255, 255, 0.2);
@@ -16,11 +17,14 @@
   --color-navbar-menu-bg: #ffffff;
 
   /* Hero */
-  --color-name-gradient: linear-gradient(135deg, rgb(64, 120, 192), rgb(52, 66, 86));
+  --color-title-gradient: linear-gradient(135deg, rgb(64, 120, 192), rgb(52, 66, 86));
   --color-proj-btn: linear-gradient(135deg, rgb(72, 130, 200), rgb(88, 102, 156));
   --color-proj-btn-shadow: rgba(81, 105, 210, 0.4);
   --color-proj-btn-hover: rgba(81, 105, 210, 0.8);
   --color-cont-btn: rgb(64, 120, 192);
+
+  /* About */
+  --color-img-bg: #f5f8ff;
 
   /* Fonts */
   --font-roboto: "Roboto";

@@ -1,23 +1,27 @@
 [
   {
+    "title": "TS/JS",
+    "imageSrc": "skills/tsjs.png"
+  },
+  {
+    "title": "C/C++",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
     "title": "Java",
     "imageSrc": "skills/java.png"
   },
   {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.svg"
-  },
-  {
-    "title": "TypeScript",
-    "imageSrc": "skills/typescript.png"
-  },
-  {
-    "title": "C",
-    "imageSrc": "skills/c.png"
-  },
-  {
     "title": "Python",
     "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "HTML/CSS",
+    "imageSrc": "skills/htmlcss.png"
   },
   {
     "title": "React",
@@ -25,26 +29,10 @@
   },
   {
     "title": "Node",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/nodejs.png"
   },
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "skills/sql.png"
-  },
-  {
-    "title": "AWS",
-    "imageSrc": "skills/aws2.png"
-  },
-  {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
+    "title": "Express",
+    "imageSrc": "skills/express.png"
   }
 ]

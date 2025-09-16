@@ -80,7 +80,9 @@ export class App extends Component<AppProps, AppState> {
         <Hero
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
-        <About />
+        <About
+          activeSection={this.state.activeSection}
+          onSectionChange={this.handleSectionChange} />
       </div>
     );
   };
