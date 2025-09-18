@@ -2,25 +2,21 @@
   {
     "role": "Teaching Assistant",
     "organization": "University of Washington",
+    "location": "Seattle, WA",
     "startDate": "June, 2024",
     "endDate": "Present",
-    "experiences": [
-      "Teach concepts for designing reliable software, such as testing and event-driven programming.",
-      "Hold hour-long review sessions to solidify lecture material for roughly 25 students weekly.",
-      "Hold weekly office hours to help tens of students with questions about course material and debugging."
-    ],
+    "description": "As a Teaching Assistant for CSE 331 (Software Design and Implementation), I handled many of the usual duties expected from a TA such as teaching, office hours, and grading. In addition to these duties I took on extra responsibilities like contributing to course materials and updating course infrastructure to improve accessibility. All of these duties went into reinforcing the core concepts of the class like reasoning through software and designing reliable apps.",
+    "technologies": ["TypeScript", "JavaScript", "NodeJS", "MochaJS", "ExpressJS", "React", "HTML/CSS"],
     "imageSrc": "history/allenSchool.png"
   },
   {
     "role": "Research Assistant",
     "organization": "Remote Hub Lab",
+    "location": "Seattle, WA",
     "startDate": "Dec, 2024",
     "endDate": "Present",
-    "experiences": [
-      "Working on projects to better the experience of working in labs remotely.",
-      "Using simulations and real hardware to help people see real world application of their work.",
-      "Removing barriers of accessibility allowing people to study and complete lab work from just a web browser."
-    ],
+    "description": "While working in the Remote Hub Lab I worked with a team to develop apps, simulations, and other lab technology. My biggest contribution was developing a web-based education platform to centralize access to the various materials and lessons related to the lab. This is currently being used in a few courses across UW to allow students to connect simulations and digital twins to real physical hardware to promote accessible access to labs.",
+    "technologies": ["Python", "Flask", "MySQL", "Alembic", "HTML/CSS", "Jinja", "C++"],
     "imageSrc": "history/remoteHubLab.jpeg"
   }
 ]

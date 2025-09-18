@@ -17,7 +17,7 @@
 }
 
 .header {
-  margin-bottom: 64px;
+  margin-bottom: 60px;
 }
 
 .title {
@@ -38,7 +38,7 @@
   opacity: 0.8;
 }
 
-.skillsGrid {
+.skillsbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,8 +53,7 @@
   justify-content: center;
   flex: 1 1 180px;
   max-width: 200px;
-  min-width: 140px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1;
   border-radius: 12px;
   background-color: var(--color-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
