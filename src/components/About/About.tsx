@@ -36,7 +36,7 @@ export class About extends Component<AboutProps> {
           </div>
 
           <h2 className={styles.title}>Skills and Tools</h2>
-          <div className={styles.skillsGrid}>
+          <div className={styles.skillsbox}>
             {skills.map((skill, index) => (
               <div key={index} className={styles.skillCard}>
                 <div className={styles.icon}>

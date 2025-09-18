@@ -3,6 +3,7 @@ import styles from './App.module.css';
 import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
+import { Experience } from './components/Experience/Experience';
 
 export type sections = 'hero' | 'about' | 'experience' | 'projects' | 'contact';
 
@@ -81,6 +82,9 @@ export class App extends Component<AppProps, AppState> {
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
         <About
+          activeSection={this.state.activeSection}
+          onSectionChange={this.handleSectionChange} />
+        <Experience
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
       </div>

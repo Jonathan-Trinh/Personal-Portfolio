@@ -6,6 +6,7 @@
   --color-subtitle: rgb(75, 85, 99);
   --color-active-section: rgb(248, 250, 252);
   --color-border: rgba(255, 255, 255, 0.2);
+  --color-itm-borders: #e5e7eb;
   --color-shadow: rgba(0, 0, 0, 0.1);
 
   /* Navbar */
@@ -25,6 +26,13 @@
 
   /* About */
   --color-img-bg: #f5f8ff;
+
+  /* Experience */
+  --color-badge-bg: #dcfce7;
+  --color-badge-txt: #166534;
+  --color-bullets: #3b82f6;
+  --color-role: black;
+  --color-description: black;
 
   /* Fonts */
   --font-roboto: "Roboto";
