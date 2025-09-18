@@ -69,7 +69,7 @@
   font-size: 20px;
   font-weight: 600;
   color: var(--color-role);
-  margin: 0 0 8px 0;
+  margin: 0 0 2px 0;
 }
 
 .orgLocation {
@@ -89,13 +89,12 @@
 
 .status {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .dateSection {
-  margin-top: 4px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -119,8 +118,22 @@
   font-size: 16px;
   color: var(--color-description);
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0;
+  padding-left: 20px;
   opacity: 0.8;
+}
+
+.descriptionItem {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.descriptionItem::marker {
+  color: var(--color-bullets);
+}
+
+.descriptionItem:last-child {
+  margin-bottom: 0;
 }
 
 .technologiesSection {

@@ -62,8 +62,14 @@ export class Experience extends Component<ExperienceProps> {
                 </div>
               </div>
 
-              {/* Description */}
-              <div className={styles.description}>{exp.description}</div>
+              {/* Bullets */}
+              <ul className={styles.description}>
+                {exp.description.map((item: string, itemIndex: number) => (
+                  <li key={itemIndex} className={styles.descriptionItem}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
 
               {/* Tech bubbles */}
               {exp.technologies && exp.technologies.length > 0 && (

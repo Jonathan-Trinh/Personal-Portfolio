@@ -4,6 +4,8 @@ import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
 import { Experience } from './components/Experience/Experience';
+import { Projects } from './components/Projects/Projects';
+import { Contact } from './components/Contact/Contact';
 
 export type sections = 'hero' | 'about' | 'experience' | 'projects' | 'contact';
 
@@ -85,6 +87,12 @@ export class App extends Component<AppProps, AppState> {
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
         <Experience
+          activeSection={this.state.activeSection}
+          onSectionChange={this.handleSectionChange} />
+        <Projects
+          activeSection={this.state.activeSection}
+          onSectionChange={this.handleSectionChange} />
+        <Contact
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
       </div>

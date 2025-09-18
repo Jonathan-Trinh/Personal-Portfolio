@@ -1,36 +1,34 @@
 [
-    {
-        "title": "uMSG",
-        "imageSrc": "projects/uMSG.png",
-        "description": "A small messaging app to help connect UW students. This was implemented with various data structures and sorting algorithms to learn how and when to use them. ",
-        "skills": [
-            "Java",
-            "CSS"
-        ],
-        "source": "https://github.com/Jonathan-Trinh/uMSG"
-    },
-    {
-        "title": "StudySpark",
-        "imageSrc": "projects/studySpark.png",
-        "description": "StudySpark is a flashcard based studying application that helped me learn about frontend-tools and client-server interactions.",
-        "skills": [
-            "React",
-            "Express",
-            "Typescript",
-            "Node"
-
-        ],
-        "source": "https://github.com/Jonathan-Trinh/StudySpark"
-    },
-    {
-        "title": "Flight_App",
-        "imageSrc": "projects/flightApp.png",
-        "description": "Flight management app powered by SQL Server to maintain a persistent database and allows concurrent use of many features.",
-        "skills": [
-            "Java",
-            "SQL",
-            "Maven"
-        ],
-        "source": "https://github.com/Jonathan-Trinh/Flight_App"
-    }
+  {
+    "title": "RedTail",
+    "imageSrc": "projects/digital-twin.png",
+    "description": "Repository of simulations and digital twins that connect to real hardware and promote accessible labs",
+    "skills": [
+      "Python",
+      "Flask",
+      "HTML/CSS",
+      "Alembic",
+      "MySQL"
+    ]
+  },
+  {
+    "title": "Payment Manager",
+    "imageSrc": "projects/transaction.png",
+    "description": "Full-stack payment management system that supports account creation, balance tracking, and user-to-user transfers",
+    "skills": [
+      "Typescript",
+      "NodeJS",
+      "React",
+      "Express",
+      "HTML/CSS"
+    ]
+  },
+  {
+    "title": "Operating System",
+    "imageSrc": "projects/operating-system.png",
+    "description": "Developed an operating system implementing core features such as process management, memory management, file system support, system calls, and concurrency.",
+    "skills": [
+      "C"
+    ]
+  }
 ]
