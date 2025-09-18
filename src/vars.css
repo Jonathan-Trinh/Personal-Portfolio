@@ -3,16 +3,17 @@
   --color-text: #64748b;
   --color-text-alt: white;
   --color-bg: #ffffff;
+  --color-title: #2d3748;
   --color-subtitle: rgb(75, 85, 99);
   --color-active-section: rgb(248, 250, 252);
   --color-border: rgba(255, 255, 255, 0.2);
   --color-itm-borders: #e5e7eb;
+  --color-hover-bg: #e2e8f0;
+  --color-hover-text: #1e293b;
   --color-shadow: rgba(0, 0, 0, 0.1);
 
   /* Navbar */
   --color-navbar: rgba(255, 255, 255, 0.1);
-  --color-hover-bg: #e2e8f0;
-  --color-hover-text: #1e293b;
   --color-active-bg: #dbeafe;
   --color-active-text: #3b82f6;
   --color-navbar-menu-bg: #ffffff;
@@ -34,6 +35,9 @@
   --color-role: black;
   --color-description: black;
 
+  /* Projects */
+  --color-tech-bg: #edf2f7;
+  --color-tech-text: #4a5568;
   /* Fonts */
   --font-roboto: "Roboto";
 }

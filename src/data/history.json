@@ -5,8 +5,20 @@
     "location": "Seattle, WA",
     "startDate": "June, 2024",
     "endDate": "Present",
-    "description": "As a Teaching Assistant for CSE 331 (Software Design and Implementation), I handled many of the usual duties expected from a TA such as teaching, office hours, and grading. In addition to these duties I took on extra responsibilities like contributing to course materials and updating course infrastructure to improve accessibility. All of these duties went into reinforcing the core concepts of the class like reasoning through software and designing reliable apps.",
-    "technologies": ["TypeScript", "JavaScript", "NodeJS", "MochaJS", "ExpressJS", "React", "HTML/CSS"],
+    "description": [
+      "Assist in teaching 200+ students per quarter by holding weekly office hours and guiding them through reasoning, designing, and debugging full-stack apps using React, NodeJS, and MochaJS",
+      "Contribute course materials and content to reinforce core concepts such as debugging, documentation, testing, and reasoning",
+      "Worked with a team to maintain and update course infrastructure such as autograder and course website"
+    ],
+    "technologies": [
+      "TypeScript",
+      "JavaScript",
+      "NodeJS",
+      "MochaJS",
+      "ExpressJS",
+      "React",
+      "HTML/CSS"
+    ],
     "imageSrc": "history/allenSchool.png"
   },
   {
@@ -15,8 +27,20 @@
     "location": "Seattle, WA",
     "startDate": "Dec, 2024",
     "endDate": "Present",
-    "description": "While working in the Remote Hub Lab I worked with a team to develop apps, simulations, and other lab technology. My biggest contribution was developing a web-based education platform to centralize access to the various materials and lessons related to the lab. This is currently being used in a few courses across UW to allow students to connect simulations and digital twins to real physical hardware to promote accessible access to labs.",
-    "technologies": ["Python", "Flask", "MySQL", "Alembic", "HTML/CSS", "Jinja", "C++"],
+    "description": [
+      "Built and extended a web-based education platform using Flask, MySQL, and Alembic, for centralizing education materials for 1000+ students in lab courses",
+      "Develop software to connect simulations and digital-twins to physical hardware to promote accessibility of lab materials",
+      "Collaborate with research group to optimize code, design migrations, and document systems supporting lab research and teaching"
+    ],
+    "technologies": [
+      "Python",
+      "Flask",
+      "MySQL",
+      "Alembic",
+      "HTML/CSS",
+      "Jinja",
+      "C++"
+    ],
     "imageSrc": "history/remoteHubLab.jpeg"
   }
 ]
