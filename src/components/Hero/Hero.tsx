@@ -48,7 +48,7 @@ export class Hero extends Component<HeroProps> {
         <img
           src={getImageUrl("hero/jonathan.png")}
           alt="Hero image of Jonathan Trinh"
-          className={styles.heroImg}/>
+          className={styles.heroImg} />
       </section>
     );
   }
