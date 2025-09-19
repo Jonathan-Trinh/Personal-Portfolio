@@ -59,14 +59,12 @@ export class Contact extends Component<ContactProps> {
 
         <footer className={styles.footer}>
           <div className={styles.footerContent}>
-            <h1 className={styles.footerName}>Jonathan Trinh</h1>
-
             <p className={styles.footerText}>
               © {new Date().getFullYear()} Jonathan Trinh. All rights reserved.
             </p>
 
             <div className={styles.footerSocials}>
-              <p className={styles.footerName}>Quick Links:</p>
+              <p className={styles.footerName}>Links:</p>
               <a href="https://github.com/Jonathan-Trinh" className={styles.footerSocialLink} rel="noopener noreferrer" target="_blank">
                 <img
                   src={getImageUrl('contact/github.png' as ImageFile)}
