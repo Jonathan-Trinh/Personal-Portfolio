@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "contact/email.png",
+    "platform": "Email",
+    "link": "jtrinh725@gmail.com",
+    "handle": "jtrinh725[at]gmail.com"
+  },
+  {
+    "icon": "contact/github.png",
+    "platform": "GitHub",
+    "link": "https://github.com/Jonathan-Trinh",
+    "handle": "github.com/Jonathan-Trinh"
+  },
+  {
+    "icon": "contact/linkedin.png",
+    "platform": "LinkedIn",
+    "link": "https://www.linkedin.com/in/jonathantrinh20/",
+    "handle": "linkedin.com/in/jonathantrinh20/"
+  }
+]

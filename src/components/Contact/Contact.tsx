@@ -1,4 +1,6 @@
 import styles from "./Contact.module.css";
+import { getImageUrl, type ImageFile } from "../../utils";
+import contact from "../../data/contact.json";
 import { Component, type JSX } from "react";
 import type { sections } from "../../App";
 
@@ -7,24 +9,7 @@ type ContactProps = {
   onSectionChange: (section: sections) => void;
 }
 
-type ContactState = {
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-}
-
-export class Contact extends Component<ContactProps, ContactState> {
-  constructor(props: ContactProps) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    };
-  }
-
+export class Contact extends Component<ContactProps> {
   handleNavigation = (section: sections): void => {
     this.props.onSectionChange(section);
 
@@ -39,13 +24,68 @@ export class Contact extends Component<ContactProps, ContactState> {
 
   render(): JSX.Element {
     const isActive = this.props.activeSection === 'contact';
-    // const { name, email, subject, message } = this.state;
 
     return (
       <section id="contact" className={`${styles.container} ${isActive ? styles.active : ''}`}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Contact</h1>
+          <h1 className={styles.title}>Let's Connect!</h1>
+          <h2 className={styles.subtitle}>Feel free to reach out on any platforms listed below</h2>
+
+          <div className={styles.socialCard}>
+            <h2 className={styles.linkTitle}>Platforms</h2>
+
+            <div className={styles.socialLinks}>
+              {contact.map((link, index) => (
+                <div key={index} className={styles.socialLink}>
+                  <div className={styles.socialIcon}>
+                    <img
+                      src={getImageUrl(link.icon as ImageFile)}
+                      className={styles.screenshot}
+                    />
+                  </div>
+                  <div className={styles.socialInfo}>
+                    <span className={styles.socialPlatform}>
+                      {link.platform}
+                    </span>
+                    <span className={styles.socialHandle}>
+                      {link.handle}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
-      </section>);
+
+        <footer className={styles.footer}>
+          <div className={styles.footerContent}>
+            <h1 className={styles.footerName}>Jonathan Trinh</h1>
+
+            <p className={styles.footerText}>
+              © {new Date().getFullYear()} Jonathan Trinh. All rights reserved.
+            </p>
+
+            <div className={styles.footerSocials}>
+              <p className={styles.footerName}>Quick Links:</p>
+              <a href="https://github.com/Jonathan-Trinh" className={styles.footerSocialLink} rel="noopener noreferrer" target="_blank">
+                <img
+                  src={getImageUrl('contact/github.png' as ImageFile)}
+                  className={styles.footerIcon}
+                  alt="GitHub"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/jonathantrinh20/" className={styles.footerSocialLink} rel="noopener noreferrer" target="_blank">
+                <img
+                  src={getImageUrl('contact/linkedin.png' as ImageFile)}
+                  className={styles.footerIcon}
+                  alt="LinkedIn"
+                />
+              </a>
+            </div>
+          </div>
+        </footer>
+
+      </section>
+    );
   }
 }
