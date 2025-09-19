@@ -38,6 +38,10 @@
   /* Projects */
   --color-tech-bg: #edf2f7;
   --color-tech-text: #4a5568;
+
+  /* Contact */
+  --color-footer-text: #9ca3af;
+
   /* Fonts */
   --font-roboto: "Roboto";
 }

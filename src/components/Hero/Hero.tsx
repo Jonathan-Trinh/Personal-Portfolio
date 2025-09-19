@@ -9,7 +9,6 @@ type HeroProps = {
 }
 
 export class Hero extends Component<HeroProps> {
-
   handleNavigation = (section: sections): void => {
     this.props.onSectionChange(section);
 
