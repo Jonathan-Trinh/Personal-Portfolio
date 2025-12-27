@@ -54,10 +54,6 @@ export class Research extends Component<ResearchProps, ResearchState> {
         <div className={styles.content}>
 
           <h1 className={styles.title}>Research</h1>
-          <h2 className={styles.subtitle}>
-            What I'm working on at the Remote Hub Lab
-          </h2>
-
           <div className={styles.researchList}>
             <div className={styles.researchRow}>
 

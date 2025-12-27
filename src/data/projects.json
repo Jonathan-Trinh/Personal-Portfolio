@@ -1,7 +1,6 @@
 [
   {
     "title": "RedTail",
-    "imageSrc": "projects/digital-twin.png",
     "description": "Repository of simulations and digital twins that connect to real hardware and promote accessible labs",
     "skills": [
       "Python",
@@ -13,7 +12,6 @@
   },
   {
     "title": "Payment Manager",
-    "imageSrc": "projects/transaction.png",
     "description": "Full-stack payment management system that supports account creation, balance tracking, and user-to-user transfers",
     "skills": [
       "Typescript",
@@ -25,10 +23,36 @@
   },
   {
     "title": "Operating System",
-    "imageSrc": "projects/operating-system.png",
-    "description": "Developed an operating system implementing core features such as process management, memory management, file system support, system calls, and concurrency.",
+    "description": "Developed an operating system implementing core features such as process management, memory management, file system support, system calls, and concurrency",
     "skills": [
       "C"
+    ]
+  },
+  {
+    "title": "Search Engine",
+    "description": "Developed highly efficient search engine to handle queries using a classic approach of crawling, indexing, and ranking",
+    "skills": [
+      "C/C++",
+      "HTML/CSS"
+    ]
+  },
+  {
+    "title": "Connect 4 RL Model",
+    "description": "Trained a Connect 4 Agent using Reinforcement Learning. The model improved steadily and finished as a competent model",
+    "skills": [
+      "Python",
+      "Pytorch",
+      "Pygame"
+    ]
+  },
+  {
+    "title": "Flight App",
+    "description": "Developed a flight management app for finding and booking flights. Support concurrent transactions and data integrity (ACID)",
+    "skills": [
+      "Java",
+      "HTML/CSS",
+      "Ant",
+      "SQL"
     ]
   }
 ]
