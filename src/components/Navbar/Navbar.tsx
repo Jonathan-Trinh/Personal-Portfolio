@@ -102,6 +102,17 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
             </li>
             <li>
               <a
+                href="#research"
+                className={activeSection === 'research' ? styles.active : ''}
+                onClick={(e) => {
+                  e.preventDefault();
+                  this.handleMenuClick('research');
+                }}>
+                Research
+              </a>
+            </li>
+            <li>
+              <a
                 href="#projects"
                 className={activeSection === 'projects' ? styles.active : ''}
                 onClick={(e) => {
