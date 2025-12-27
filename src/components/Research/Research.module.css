@@ -28,13 +28,6 @@
   align-items: center;
 }
 
-.subtitle {
-  font-size: 20px;
-  background: var(--color-subtitle);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .researchList {
   display: flex;
   flex-direction: column;
