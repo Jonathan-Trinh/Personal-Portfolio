@@ -4,10 +4,11 @@ import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
 import { Experience } from './components/Experience/Experience';
+import { Research } from './components/Research/Research';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
 
-export type sections = 'hero' | 'about' | 'experience' | 'projects' | 'contact';
+export type sections = 'hero' | 'about' | 'experience' | 'research' | 'projects' | 'contact';
 
 type AppProps = {};
 
@@ -35,7 +36,7 @@ export class App extends Component<AppProps, AppState> {
   }
 
   handleScroll = () => {
-    const sections: sections[] = ['hero', 'about', 'experience', 'projects', 'contact'];
+    const sections: sections[] = ['hero', 'about', 'experience', 'research', 'projects', 'contact'];
 
     const current = sections.find(section => {
       const element = document.getElementById(section);
@@ -87,6 +88,9 @@ export class App extends Component<AppProps, AppState> {
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
         <Experience
+          activeSection={this.state.activeSection}
+          onSectionChange={this.handleSectionChange} />
+        <Research
           activeSection={this.state.activeSection}
           onSectionChange={this.handleSectionChange} />
         <Projects
