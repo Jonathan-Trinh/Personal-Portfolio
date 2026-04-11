@@ -34,7 +34,7 @@ export class Hero extends Component<HeroProps> {
           </p>
           <div className={styles.buttonContainer}>
             <button
-              className={`${styles.btn} ${styles.primaryBtn}`}
+              className={`${styles.btn} ${styles.secondaryBtn}`}
               onClick={() => this.handleNavigation('projects')}>
               View Projects
             </button>
